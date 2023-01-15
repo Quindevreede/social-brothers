@@ -1,0 +1,83 @@
+.btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    border-radius:10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    --button--navbar: var(--primary);
+    --button--default: var(--primary);
+    --button--form: var(--primary);
+    --button--imdb: var(--linkcolor);
+    --button--disabled-text: lightgrey;
+    --button--disabled: dimgrey;
+}
+
+
+.btn--default {
+    background-color: var(--button--default);
+    color: var(--primary);
+    border: none;
+    margin-top: 10px;
+}
+
+.btn:disabled {
+    background-color: var(--button--disabled-text);
+    color: var(--button--disabled);
+}
+
+.btn--navbar2 {
+    display: flex;
+    align-items: center;
+    background: none ;
+    border: none;
+    color: var(--black);
+    font-family: "Arial", serif;
+    font-size: 12px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.btn--navbar {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn--small {
+    background: white ;
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 103px;
+    height: 48px;
+}
+
+
+.btn--form {
+    background-color: var(--button--form);
+    color: var(--primary);
+    border: none;
+    margin-top: 20px;
+}
+
+.btn--imdb {
+    background-color: var(--button--imdb);
+    color: var(--primary);
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn--medium {
+    padding: 8px 5px;
+    font-size: 15px;
+}
+
+.btn--wide {
+    padding: 5px 10px;
+}
+
+
+
+
