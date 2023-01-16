@@ -1,0 +1,9 @@
+.top20-top__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-event-homepage {
+    display: flex;
+    justify-content: left;
+}

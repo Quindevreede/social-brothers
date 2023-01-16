@@ -57,7 +57,7 @@
     justify-content: center;
     align-items: center;
     padding: 27px 0 1000px 0;
-    background-color: navajowhite;
+    background-color: white;
 }
 
 .navbar-menu-links__container img {
@@ -145,10 +145,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        box-shadow: 0 1px 40px lightgrey;
+        box-shadow: 0 1px 40px black;
         background-color: #FFFFFF;
         scroll-behavior: smooth;
-        transition: 400ms;
+        transition: 10ms;
         padding: 45px 0;
     }
 
@@ -194,5 +194,15 @@
 
     .navbar-right__container button {
         margin-left: -30px;
+    }
+
+    .navbar-logo__container-secure {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar-logo__container-secure h5 {
+        text-decoration: none;
+        color: orangered;
     }
 }

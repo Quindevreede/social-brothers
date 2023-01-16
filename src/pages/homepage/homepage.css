@@ -4,7 +4,7 @@
 
 .head-img {
     position: relative;
-    filter: brightness(50%);
+    filter: brightness(40%);
     width:100%;
 }
 
@@ -28,8 +28,35 @@
     font-size: 13px;
 }
 
+.blog__container {
+    width: fit-content;
+}
+
 @media screen and (min-width: 1050px) {
+    .homepage-head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .head-img {
         height: 700px;
+    }
+
+    .header-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 200px;
+        width: 800px;
+    }
+
+    .header-text h1 {
+        font-size: 50px;
+    }
+
+    .header-text p {
+        font-size: 25px;
     }
 }
