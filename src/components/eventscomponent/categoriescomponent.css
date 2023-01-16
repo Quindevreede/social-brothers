@@ -1,0 +1,15 @@
+.top20-category-btn__container {
+    display: flex;
+    justify-content: left;
+}
+
+.category-buttons {
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 5px 10px;
+    margin: 5px 0 5px 5px;
+}
+
+.category-active {
+    background-color: #005ad4;
+}
